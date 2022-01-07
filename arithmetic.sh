@@ -14,7 +14,4 @@ echo "the result of First oprn is: "${oprn[0]}
 echo "the result of second oprn is: "${oprn[1]}
 echo "the result of third oprn is: "${oprn[2]}
 
-for val in "${oprn[@]}";
-do
-	echo "array value is: $val"
-done
+echo "Result in the Descending Order: "${oprn[@]} | sort
