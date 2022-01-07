@@ -14,4 +14,8 @@ echo "the result of First oprn is: "${oprn[0]}
 echo "the result of second oprn is: "${oprn[1]}
 echo "the result of third oprn is: "${oprn[2]}
 
-echo "Result in the Descending Order: "${oprn[@]} | sort
+touch desc.txt
+> desc.txt
+echo -e "${oprn[0]}\n${oprn[1]}\n${oprn[2]}" >> dec.txt
+echo "//Descending Order"
+sort -n -r dec.txt
